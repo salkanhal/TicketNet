@@ -45,7 +45,8 @@ def handle_command(line, name):
 
     cmd = parts[0].upper()
     args = parts[1:]
-
+#Each client runs in its own thread. the seats_lock makes 
+#sure the check and book step happens as one step, so two clients can never book the same seats.
     # --- login / join step ---
     if cmd == "HELLO":
         if name is not None:
