@@ -1,6 +1,7 @@
 """
 TicketNet client - SE239 Network Programming
 
+
 Connects to the TicketNet server, logs in with HELLO <name>,
 then shows a simple menu. The client keeps no seat data itself;
 it only sends requests and prints the server's replies.
