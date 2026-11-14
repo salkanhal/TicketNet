@@ -49,7 +49,13 @@ check-and-book step, so two clients can never get the same seat.
 
 
 ## Team contributions
+## Test results
+- Tested with 3 clients connected at the same time.
+- All 3 tried to book seat 5: one got BOOKED, two got TAKEN.
+- Commands sent before HELLO return an ERROR.
+- Seat numbers out of range return an ERROR.
 
+  
 - Shaykhah Alkanhal 202400951: Documentation Lead (README, deliverable report)
 - Aljohara Bin Thunayan 202401618: Testing & Demo Lead (testing with 3 clients)
 - Layan Abdulaziz Albadr 202501798: Server Lead (server.py)
