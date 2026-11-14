@@ -46,3 +46,8 @@ check-and-book step, so two clients can never get the same seat.
 - All 3 clients tried to book seat 5: one got `BOOKED 5`, the other two got `TAKEN 5`.
 - Commands sent before logging in get `ERROR please send HELLO <name> first`.
 - Screenshot: server terminal + three client terminals side by side.
+## Team contributions
+
+
+
+- Shaykhah Alkanhal 202400951: Documentation Lead (README, deliverable report)
