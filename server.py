@@ -2,6 +2,7 @@
 TicketNet server - SE239 Network Programming
 Simple Ticket Booking System (Topic 12)
 
+
 One event, a fixed number of seats. Each client gets its own thread.
 A single lock protects the seat table so a seat is never booked twice.
 
