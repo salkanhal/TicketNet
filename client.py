@@ -77,3 +77,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+# The client keeps no seat data. It only sends one request line
+# and waits for one reply line from the server.
