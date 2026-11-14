@@ -53,3 +53,4 @@ check-and-book step, so two clients can never get the same seat.
 - Shaykhah Alkanhal 202400951: Documentation Lead (README, deliverable report)
 - Aljohara Bin Thunayan 202401618: Testing & Demo Lead (testing with 3 clients)
 - Layan Abdulaziz Albadr 202501798: Server Lead (server.py)
+- Jana AlFaraj 202502212: Client Lead (client.py)
