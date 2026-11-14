@@ -6,7 +6,7 @@ Simple Ticket Booking System (Topic 12)
 One event, a fixed number of seats. Each client gets its own thread.
 A single lock protects the seat table so a seat is never booked twice.
 
-Protocol: text over TCP, one message per line, (ends wioth "\n").
+Protocol: text over TCP, one message per line, (ends with "\n").
     Hello <name>   -> WELCOME <name>        (login / join step, must come first)
     VIEW           -> SEATS 1 2 5 7 ...     (free seats)
     BOOk <seat>    -> BOOKED <seat> | TAKEN <seat>
