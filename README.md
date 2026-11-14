@@ -6,7 +6,7 @@ Instructor: Dr. Ahmad Sawalmeh
 Team: Layan Abdulaziz Albadr, Jana Bader AlFaraj, Bdour Bader AlFaraj,
 Aljohara Bin Thunayan, Shaykhah Alkanhal
 
-## How to run (Python 3, no extra libraries)
+## How to run (Python 3)
 
 1. Start the server in one terminal:
    ```
