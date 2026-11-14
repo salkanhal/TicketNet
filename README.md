@@ -46,7 +46,10 @@ check-and-book step, so two clients can never get the same seat.
 - All 3 clients tried to book seat 5: one got `BOOKED 5`, the other two got `TAKEN 5`.
 - Commands sent before logging in get `ERROR please send HELLO <name> first`.
 - Screenshot: server terminal + three client terminals side by side.
-
+## Message rules
+- Every message is one line of text ending with a newline.
+- The first word is the command; the rest are arguments.
+- HELLO must be sent before any other command.
 ## Test results
 - Tested with 3 clients connected at the same time.
 - All 3 tried to book seat 5: one got BOOKED, two got TAKEN.
@@ -55,8 +58,10 @@ check-and-book step, so two clients can never get the same seat.
 ## Team contributions
 
 
+
   
 - Shaykhah Alkanhal 202400951: Documentation Lead (README, deliverable report)
 - Aljohara Bin Thunayan 202401618: Testing & Demo Lead (testing with 3 clients)
 - Layan Abdulaziz Albadr 202501798: Server Lead (server.py)
 - Jana AlFaraj 202502212: Client Lead (client.py)
+- Bdour Bader AlFaraj: Messages & Data Lead (message format)
